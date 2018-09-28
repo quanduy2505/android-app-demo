@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:background="#ffffff" app:layout_width="-1" app:layout_height="-1">
+    <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2" app:layout_margin="10dp" app:layout_centerHorizontal="true" app:layout_centerVertical="true">
+        <TextView app:textStyle="1" app:id="@id/tieude" app:layout_width="-1" app:layout_height="-2" app:layout_marginBottom="15dp" app:text="Nhập url của ảnh:" />
+        <EditText app:id="@id/url" app:background="@drawable/botronform" app:layout_width="-1" app:layout_height="-2" app:hint="http://example.com/image.jpg" />
+        <RelativeLayout app:layout_width="-1" app:layout_height="-2" app:layout_margin="15dp">
+            <Button app:textStyle="1" app:textColor="#ffffff" app:id="@id/upload" app:background="@drawable/botronsearch" app:layout_width="-2" app:layout_height="-2" app:text="Tải lên" />
+            <Button app:textStyle="1" app:textColor="#ffffff" app:id="@id/exit" app:background="@drawable/botronsearch" app:layout_width="-2" app:layout_height="-2" app:text="Hủy" app:layout_alignParentTop="true" app:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

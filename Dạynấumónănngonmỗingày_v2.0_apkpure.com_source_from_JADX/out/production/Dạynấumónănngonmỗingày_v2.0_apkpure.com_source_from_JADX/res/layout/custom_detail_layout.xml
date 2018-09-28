@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-1" app:layout_height="-1">
+    <ImageView app:id="@id/img" app:layout_width="-1" app:layout_height="-1" app:scaleType="6" app:adjustViewBounds="true" />
+    <ImageButton app:id="@id/youtube" app:background="@newthreadworker/PURGE_FREQUENCY" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/play" app:layout_centerHorizontal="true" app:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout lv:background="@color/gren" lv:fitsSystemWindows="true" lv:layout_width="-1" lv:layout_height="-1">
+    <android.support.design.widget.AppBarLayout lv:theme="@style/AppTheme_AppBarOverlay" lv:id="@id/appBar" lv:fitsSystemWindows="true" lv:layout_width="-1" lv:layout_height="300dp">
+        <android.support.design.widget.CollapsingToolbarLayout lv:ellipsize="4" lv:id="@id/collapsingToolbar" lv:fitsSystemWindows="true" lv:layout_width="-1" lv:layout_height="-1" lv:singleLine="true" lv:title="" lv:layout_scrollFlags="3" lv:expandedTitleMarginStart="48dp" lv:expandedTitleMarginEnd="64dp" lv:contentScrim="@color/colorPrimary">
+            <RelativeLayout lv:layout_width="-1" lv:layout_height="-1">
+                <Gallery lv:layout_gravity="11" lv:id="@id/gallery" lv:background="#fff" lv:layout_width="-1" lv:layout_height="-1" lv:scaleType="6" />
+                <ImageButton lv:id="@id/next" lv:background="@newthreadworker/PURGE_FREQUENCY" lv:visibility="2" lv:layout_width="-2" lv:layout_height="-2" lv:src="@drawable/next" lv:layout_alignParentRight="true" lv:layout_centerVertical="true" />
+            </RelativeLayout>
+            <me.wangyuwei.loadingview.LoadingView lv:id="@id/loading_view" lv:layout_width="-2" lv:layout_height="-2" lv:lv_external_radius="22dp" lv:lv_internal_radius="8dp" lv:lv_duration="10" lv:lv_start_color="@color/colorAccent" lv:lv_end_color="#fff" />
+            <android.support.v7.widget.Toolbar lv:id="@id/toolbar" lv:layout_width="-1" lv:layout_height="?unknown_attr_ref: 7f01004a" lv:popupTheme="@style/AppTheme_PopupOverlay" lv:layout_collapseMode="1">
+                <ImageButton lv:layout_gravity="800005" lv:id="@id/like" lv:background="@drawable/botrontim" lv:layout_width="-2" lv:layout_height="-2" lv:layout_margin="7dp" lv:src="@drawable/like1" />
+                <ImageButton lv:layout_gravity="800005" lv:id="@id/save" lv:background="@drawable/botrontim" lv:layout_width="-2" lv:layout_height="-2" lv:layout_margin="7dp" lv:src="@drawable/dish" />
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <RelativeLayout lv:layout_width="-1" lv:layout_height="-1" lv:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <android.support.v4.view.ViewPager lv:id="@id/vp_horizontal_ntb" lv:layout_width="-1" lv:layout_height="-2" lv:layout_below="@id/wrapper_ntb_horizontal" />
+        <FrameLayout lv:id="@id/wrapper_ntb_horizontal" lv:layout_width="-1" lv:layout_height="-2">
+            <devlight.io.library.ntb.NavigationTabBar lv:id="@id/ntb_horizontal" lv:layout_width="-1" lv:layout_height="60dp" lv:ntb_titled="true" lv:ntb_badged="true" lv:ntb_scaled="false" lv:ntb_badge_use_typeface="true" lv:ntb_title_size="12sp" lv:ntb_title_mode="1" lv:ntb_badge_position="0" lv:ntb_badge_gravity="1" lv:ntb_badge_bg_color="#ffff0000" lv:ntb_badge_title_color="#ffffffff" lv:ntb_bg_color="@color/gray" />
+        </FrameLayout>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

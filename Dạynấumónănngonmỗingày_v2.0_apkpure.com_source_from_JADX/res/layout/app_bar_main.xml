@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout app:fitsSystemWindows="false" app:layout_width="-1" app:layout_height="-1">
+    <android.support.design.widget.AppBarLayout app:theme="@style/AppTheme_AppBarOverlay" app:layout_width="-1" app:layout_height="-2">
+        <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:background="?unknown_attr_ref: 7f010087" app:layout_width="-1" app:layout_height="?unknown_attr_ref: 7f01004a" app:popupTheme="@style/AppTheme_PopupOverlay" app:layout_scrollFlags="5">
+            <RelativeLayout app:layout_width="-1" app:layout_height="-2">
+                <TextView app:textSize="20dp" app:textStyle="1" app:textColor="@color/gren" app:id="@id/title" app:layout_width="-2" app:layout_height="-2" app:text="title" app:layout_alignParentLeft="true" app:layout_centerVertical="true" />
+                <AutoCompleteTextView app:textColor="#fff" app:id="@id/key" app:background="@drawable/botronsearch" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_marginRight="10dp" app:text="" app:singleLine="true" app:layout_toLeftOf="@id/search" app:imeOptions="6">
+                    <requestFocus />
+                </AutoCompleteTextView>
+                <EditText app:textColor="#fff" app:id="@id/filsv" app:background="@drawable/botronsearch" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_marginRight="10dp" app:singleLine="true" app:layout_toLeftOf="@id/search" />
+                <ProgressBar app:id="@id/pro" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_toLeftOf="@id/filter" app:layout_alignLeft="@id/search" app:layout_alignParentTop="true" />
+                <ImageButton app:id="@id/filter" app:background="@newthreadworker/PURGE_FREQUENCY" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="20dp" app:src="@drawable/search" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+                <ImageButton app:id="@id/searchsave" app:background="@newthreadworker/PURGE_FREQUENCY" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="20dp" app:src="@drawable/search" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+                <ImageButton app:id="@id/search" app:background="@newthreadworker/PURGE_FREQUENCY" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="20dp" app:src="@drawable/search" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <include layout="@layout/content_main" />
+    <com.nightonke.boommenu.BoomMenuButton app:layout_gravity="55" app:id="@id/bmb" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="10dp" app:bmb_normalColor="@color/colorAccent" app:bmb_highlightedColor="0x1060017" app:bmb_boomEnum="0" app:layout_behavior="" />
+</android.support.design.widget.CoordinatorLayout>

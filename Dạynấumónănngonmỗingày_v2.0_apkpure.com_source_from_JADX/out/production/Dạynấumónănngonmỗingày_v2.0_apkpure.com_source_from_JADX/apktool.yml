@@ -1,0 +1,30 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: Dạynấumónănngonmỗingày_v2.0_apkpure.com.apk
+compressionType: false
+doNotCompress:
+- arsc
+- META-INF/services/com.fasterxml.jackson.core.JsonFactory
+- META-INF/services/com.fasterxml.jackson.core.ObjectCodec
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '15'
+  targetSdkVersion: '25'
+sharedLibrary: false
+unknownFiles:
+  NOTICE_firebase_android: '8'
+  NOTICE_firebase_jvm: '8'
+  build-data.properties: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+  org/apache/http/version.properties: '8'
+  org/apache/http/client/version.properties: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1
+versionInfo:
+  versionCode: '2'
+  versionName: '2.0'

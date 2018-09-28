@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.quan.foody.MainActivity">
+    <TextView
+        android:text="FOOD"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#cf092d"
+        android:fontFamily="arial"/>
+
+    <Button android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/aa"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            >
+            <Button
+                android:id="@+id/timkiem"
+                android:layout_width="295dp"
+                android:layout_height="150dp"
+                android:text=""
+                android:background="@drawable/search"
+
+
+                />
+
+            <Button
+                android:id="@+id/btnCongThuc"
+                android:layout_width="295dp"
+                android:layout_height="150dp"
+                android:text=""
+                android:background="@drawable/abc"/>
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="295dp"
+                android:layout_height="180dp"
+                android:text=""
+                android:background="@drawable/meovat"/>
+
+            <Button
+                android:layout_width="295dp"
+                android:layout_height="180dp"
+                android:text=""
+                android:background="@drawable/mail"/>
+
+
+        </TableRow>
+    </TableLayout>
+
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cook1"/>
+</LinearLayout>

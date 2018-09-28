@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout lv:id="@id/main_content" lv:background="@color/gren" lv:layout_width="-1" lv:layout_height="-1">
+    <RelativeLayout lv:layout_width="-1" lv:layout_height="-1">
+        <android.support.v7.widget.RecyclerView lv:id="@id/fishPriceList" lv:layout_width="-1" lv:layout_height="-2" lv:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <me.wangyuwei.loadingview.LoadingView lv:id="@id/loading_view" lv:layout_width="-2" lv:layout_height="-2" lv:lv_external_radius="32dp" lv:lv_internal_radius="7dp" lv:lv_duration="10" lv:lv_start_color="@color/colorAccent" lv:lv_end_color="#fff" />
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

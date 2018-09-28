@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="0x10a0004" android:duration="0x10e0002">
+    <scale android:pivotX="50%" android:pivotY="50%" android:repeatCount="-1" android:repeatMode="2" android:fromXScale="1.0" android:toXScale="0.8" android:fromYScale="1.0" android:toYScale="0.8" />
+</set>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout lv:orientation="1" lv:layout_width="-1" lv:layout_height="-1">
+    <RelativeLayout lv:background="#fff" lv:layout_width="-1" lv:layout_height="-1">
+        <ImageView lv:id="@id/image" lv:layout_width="-1" lv:layout_height="-1" />
+        <TextView lv:textColor="#000" lv:id="@id/im" lv:layout_width="-2" lv:layout_height="-2" />
+    </RelativeLayout>
+</LinearLayout>

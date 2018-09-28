@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout lv:id="@id/main_content" lv:background="@color/gren" lv:layout_width="-1" lv:layout_height="-1">
+    <RelativeLayout lv:layout_width="-1" lv:layout_height="-1">
+        <TextView lv:id="@id/tb" lv:layout_width="-2" lv:layout_height="-2" lv:text="" />
+        <android.support.v7.widget.RecyclerView lv:id="@id/list" lv:layout_width="-1" lv:layout_height="-2" lv:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

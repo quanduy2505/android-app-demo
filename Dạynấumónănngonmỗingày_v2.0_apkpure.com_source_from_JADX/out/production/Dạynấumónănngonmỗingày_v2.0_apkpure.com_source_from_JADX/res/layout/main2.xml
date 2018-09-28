@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout app:id="@id/main_content" app:layout_width="-1" app:layout_height="-1">
+    <RelativeLayout app:layout_width="-1" app:layout_height="-1">
+        <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout app:id="@id/swipyrefreshlayout" app:layout_width="-1" app:layout_height="-2" app:srl_direction="0">
+            <android.support.v7.widget.RecyclerView app:id="@id/fishPriceList" app:layout_width="-1" app:layout_height="-2" />
+        </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+        <ProgressBar app:id="@id/progress" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentBottom="true" app:layout_centerInParent="true" app:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <com.nightonke.boommenu.BoomMenuButton app:layout_gravity="55" app:id="@id/bmb" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="10dp" app:bmb_normalColor="@color/colorAccent" app:bmb_highlightedColor="0x1060017" app:bmb_boomEnum="0" app:layout_behavior="" />
+</android.support.design.widget.CoordinatorLayout>

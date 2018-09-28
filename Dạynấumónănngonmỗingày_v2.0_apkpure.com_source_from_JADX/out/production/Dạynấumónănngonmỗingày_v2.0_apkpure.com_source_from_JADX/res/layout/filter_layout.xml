@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/gren" android:layout_width="-1" android:layout_height="-1">
+    <EditText android:textSize="16sp" android:textStyle="1" android:textColorHint="@color/gray" android:layout_gravity="10" android:id="@id/search" android:background="@newthreadworker/PURGE_FREQUENCY" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp" android:hint="Tìm kiếm" android:singleLine="true" />
+    <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:src="@drawable/searcher" android:layout_above="@id/border" android:layout_alignParentRight="true" />
+    <View android:id="@id/border" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="5dp" android:layout_below="@id/search" />
+    <android.support.v7.widget.RecyclerView android:id="@id/list" android:layout_width="-1" android:layout_height="-1" android:layout_below="@id/border" />
+</RelativeLayout>

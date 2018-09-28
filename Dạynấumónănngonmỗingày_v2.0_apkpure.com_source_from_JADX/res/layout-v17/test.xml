@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:id="@id/RelativeLayout01" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+            <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+                <de.hdodenhof.circleimageview.CircleImageView app:id="@id/avatar" app:layout_width="70px" app:layout_height="70px" app:src="@drawable/com_facebook_profile_picture_blank_portrait" app:civ_border_width="0dp" app:civ_border_color="#ff000000" />
+                <LinearLayout app:layout_gravity="10" app:orientation="1" app:layout_width="-2" app:layout_height="-2">
+                    <TextView app:textStyle="1" app:id="@id/nickname" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="5dp" app:text="Lê Văn Tuấn" />
+                    <TextView app:textSize="10dp" app:textStyle="2" app:id="@id/date" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="5dp" app:text="18:00 21/7/2016" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+                <TextView app:textStyle="1" app:layout_gravity="1" app:id="@id/namefood" app:layout_width="-2" app:layout_height="-2" app:text="Tên món ăn" />
+            </LinearLayout>
+            <LinearLayout app:layout_width="-1" app:layout_height="-2" app:layout_margin="10dp">
+                <TextView app:id="@id/noidung" app:layout_width="-1" app:layout_height="-2" app:text="uwyfewufhryufyuiewibfyuwefuefwefwfyegfwyefgywegfyegfefygeyfgwyefu ưueygfywfgefw" />
+            </LinearLayout>
+            <LinearLayout app:layout_width="-1" app:layout_height="-2">
+                <RelativeLayout app:layout_width="-1" app:layout_height="-2" app:layout_margin="7dp">
+                    <TextView app:textStyle="1" app:id="@id/total" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="5dp" app:text="156" app:layout_centerVertical="true" />
+                    <ImageView app:id="@id/tim" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/like" app:layout_toRightOf="@id/total" app:layout_centerVertical="true" />
+                    <ImageButton app:id="@id/like" app:background="@drawable/botronform" app:layout_width="-2" app:layout_height="-2" app:layout_margin="5dp" app:src="@drawable/like1" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+                    <ImageButton app:id="@id/save" app:background="@drawable/botronform" app:layout_width="-2" app:layout_height="-2" app:layout_margin="5dp" app:src="@drawable/dish" app:layout_toLeftOf="@id/like" app:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+                <RelativeLayout app:layout_width="-1" app:layout_height="-2">
+                    <EditText app:gravity="30" app:id="@id/content" app:background="@drawable/botron2" app:layout_width="-1" app:layout_height="200px" app:layout_margin="10dp" app:hint="Bình luận" />
+                    <ImageButton app:id="@id/send" app:background="@drawable/botrontim" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/send2" app:layout_below="@id/content" app:layout_alignRight="@id/content" app:layout_alignParentBottom="true" app:layout_alignEnd="@id/content" />
+                </RelativeLayout>
+                <android.support.v7.widget.RecyclerView app:id="@id/listcmt" app:background="@drawable/botron2" app:layout_width="-1" app:layout_height="-2" />
+                <RelativeLayout app:layout_width="-1" app:layout_height="-2">
+                    <TextView app:textStyle="1" app:layout_gravity="1" app:id="@id/arl" app:layout_width="-2" app:layout_height="-2" app:layout_margin="5dp" app:layout_marginBottom="10dp" app:layout_centerHorizontal="true" app:layout_centerVertical="true" />
+                </RelativeLayout>
+                <LinearLayout app:orientation="1" app:background="@drawable/botron2" app:layout_width="-1" app:layout_height="-2">
+                    <RelativeLayout app:layout_width="-1" app:layout_height="-2">
+                        <TextView app:textStyle="1" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="10dp" app:text="Cùng thể loại:" app:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <android.support.v7.widget.RecyclerView app:id="@id/listtl" app:background="@drawable/botron2" app:layout_width="-2" app:layout_height="-2" />
+                    <TextView app:textStyle="1" app:id="@id/more" app:layout_width="-2" app:layout_height="-2" app:layout_margin="10dp" app:text="" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

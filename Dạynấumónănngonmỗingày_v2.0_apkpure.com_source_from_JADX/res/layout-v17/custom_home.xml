@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView card_view:layout_width="-1" card_view:layout_height="-2" card_view:layout_margin="5dp" card_view:cardElevation="8dp">
+    <LinearLayout card_view:orientation="1" card_view:layout_width="-1" card_view:layout_height="-2" card_view:layout_margin="4dp">
+        <RelativeLayout card_view:layout_width="-1" card_view:layout_height="-2">
+            <ImageView card_view:id="@id/imtit" card_view:layout_width="-1" card_view:layout_height="-2" card_view:adjustViewBounds="true" />
+            <ImageButton card_view:id="@id/save" card_view:background="@drawable/botrontim" card_view:layout_width="-2" card_view:layout_height="-2" card_view:layout_margin="10dp" card_view:src="@drawable/dish" />
+            <ImageButton card_view:id="@id/like" card_view:background="@drawable/botrontim" card_view:layout_width="-2" card_view:layout_height="-2" card_view:layout_margin="10dp" card_view:src="@drawable/like1" card_view:layout_alignParentTop="true" card_view:layout_alignParentRight="true" card_view:layout_alignParentEnd="true" />
+            <LinearLayout card_view:orientation="0" card_view:background="@color/trans" card_view:layout_width="-1" card_view:layout_height="-2" card_view:layout_above="@id/tetname" card_view:layout_alignParentLeft="true" card_view:layout_alignParentStart="true">
+                <de.hdodenhof.circleimageview.CircleImageView app:id="@id/avatar" app:layout_width="70px" app:layout_height="70px" app:src="@drawable/com_facebook_profile_picture_blank_portrait" app:civ_border_width="0dp" app:civ_border_color="#ff000000" />
+                <LinearLayout app:layout_gravity="10" app:orientation="1" app:layout_width="-2" app:layout_height="-2">
+                    <TextView app:textStyle="1" app:id="@id/nickname" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="5dp" app:text="Lê Văn Tuấn" />
+                    <TextView app:textSize="10dp" app:textStyle="2" app:id="@id/date" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="5dp" app:text="18:00 21/7/2016" />
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout app:id="@id/tetname" app:background="@color/trans" app:layout_width="-1" app:layout_height="-2" app:layout_above="@id/relativeLayout3" app:layout_alignParentLeft="true" app:layout_alignParentStart="true">
+                <TextView app:textStyle="1" app:layout_gravity="11" app:id="@id/namefood" app:layout_width="-2" app:layout_height="-2" app:text="Món này ngon" app:layout_alignParentTop="true" app:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout app:id="@id/relativeLayout3" app:background="@color/trans" app:layout_width="-1" app:layout_height="-2" app:layout_alignBottom="@id/imtit" app:layout_alignParentLeft="true" app:layout_alignParentStart="true">
+                <TextView app:textStyle="1" app:id="@id/total" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="5dp" app:text="156" app:layout_centerVertical="true" />
+                <ImageView app:id="@id/tim" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/eye" app:layout_toRightOf="@id/total" app:layout_centerVertical="true" />
+                <TextView app:textStyle="2" app:id="@id/theloai" app:layout_width="-2" app:layout_height="-2" app:text="" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

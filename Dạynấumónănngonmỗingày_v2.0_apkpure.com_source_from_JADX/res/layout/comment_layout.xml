@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout lv:background="@color/gren" lv:fitsSystemWindows="true" lv:layout_width="-1" lv:layout_height="-1">
+    <LinearLayout lv:orientation="1" lv:layout_width="-1" lv:layout_height="-1">
+        <RelativeLayout lv:id="@id/rela" lv:layout_width="-1" lv:layout_height="130dp" lv:layout_margin="10dp">
+            <EditText lv:textColor="#000000" lv:textColorHint="@color/colorPrimaryDark" lv:gravity="30" lv:id="@id/content" lv:background="@drawable/botron2" lv:layout_width="-1" lv:layout_height="-2" lv:layout_marginLeft="10dp" lv:layout_marginRight="10dp" lv:hint="Bình luận" lv:layout_alignParentTop="true" lv:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <ImageButton lv:layout_gravity="5" lv:id="@id/send" lv:background="@drawable/botrontim" lv:layout_width="-2" lv:layout_height="-2" lv:src="@drawable/send2" lv:layout_alignParentRight="true" lv:layout_alignParentBottom="true" />
+        <android.support.v4.widget.NestedScrollView lv:layout_width="-1" lv:layout_height="-1">
+            <LinearLayout lv:orientation="1" lv:layout_width="-1" lv:layout_height="-1">
+                <android.support.v7.widget.RecyclerView android:id="@id/listcmt" android:layout_width="-1" android:layout_height="-2" />
+                <TextView android:textStyle="1" android:layout_gravity="1" android:id="@id/arl" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" />
+                <ProgressBar android:layout_gravity="1" android:id="@id/pro" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

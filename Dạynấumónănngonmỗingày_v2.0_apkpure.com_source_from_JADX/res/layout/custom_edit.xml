@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/ScrollView01" android:background="@color/gren" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:id="@id/RelativeLayout01" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+                <android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2">
+                    <EditText android:textStyle="3" android:id="@id/tit" android:background="@drawable/botronform" android:layout_width="-1" android:layout_height="-2" android:hint="Tên món ăn" android:singleLine="true" android:maxLength="1000" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2">
+                    <EditText android:gravity="30" android:id="@id/nd" android:background="@drawable/botronform" android:layout_width="-1" android:layout_height="500px" android:hint="Chi tiết món ăn" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_gravity="11" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+                    <ImageButton android:id="@id/exit" android:background="@drawable/botrontim" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:src="@drawable/close" />
+                    <ImageButton android:id="@id/send" android:background="@drawable/botrontim" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:src="@drawable/send2" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

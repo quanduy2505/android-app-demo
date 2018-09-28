@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/colorPrimary" android:layout_width="-1" android:layout_height="@dimen/nav_header_height"
+    <LinearLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="0.5" />
+    <LinearLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="6.0">
+        <de.hdodenhof.circleimageview.CircleImageView app:layout_gravity="10" app:id="@id/avatar" app:layout_width="-1" app:layout_height="-1" app:src="@drawable/com_facebook_profile_picture_blank_portrait" app:civ_border_width="0dp" app:civ_border_color="#ff000000" />
+    </LinearLayout>
+    <RelativeLayout app:layout_width="-1" app:layout_height="0dp" app:layout_weight="2.0">
+        <Button app:textStyle="1" app:textColor="@color/gren" app:id="@id/login" app:background="@drawable/botrona" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:text="Đăng nhập" app:layout_alignParentTop="true" app:layout_centerHorizontal="true" />
+        <TextView app:textSize="20dp" app:textStyle="1" app:textColor="@color/gren" app:ellipsize="4" app:id="@id/nickname" app:layout_width="-2" app:layout_height="-1" app:layout_marginTop="10dp" app:text="lê văn tuấn" app:singleLine="true" app:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout app:layout_width="-1" app:layout_height="0dp" app:layout_weight="0.5" /> />

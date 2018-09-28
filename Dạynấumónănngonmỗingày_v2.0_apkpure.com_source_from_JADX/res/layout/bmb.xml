@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nightonke.boommenu.BMBShadow android:id="@id/shadow" android:layout_width="-2" android:layout_height="-2">
+    <FrameLayout android:id="@id/button" android:background="?unknown_attr_ref: 101030e" android:clickable="true" android:layout_width="-2" android:layout_height="-2" />
+</com.nightonke.boommenu.BMBShadow>

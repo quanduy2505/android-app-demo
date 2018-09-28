@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout app:orientation="1" app:id="@id/coordinator_layout_slide" app:background="0x106000d" app:focusable="true" app:focusableInTouchMode="true" app:layout_width="-1" app:layout_height="-1">
+    <agency.tango.materialintroscreen.widgets.OverScrollViewPager app:id="@id/view_pager_slides" app:layout_width="-1" app:layout_height="-1" />
+    <LinearLayout app:layout_gravity="50" app:orientation="1" app:id="@id/navigation_view" app:paddingTop="32dp" app:layout_width="-1" app:layout_height="-2" app:layout_behavior="agency.tango.materialintroscreen.MoveUpBehaviour">
+        <android.support.v7.widget.AppCompatButton app:theme="@style/ColoredButton" app:layout_gravity="51" app:id="@id/button_message" app:visibility="1" app:layout_width="-2" app:layout_height="-2" />
+        <LinearLayout app:layout_gravity="50" app:orientation="0" app:layout_width="-1" app:layout_height="-2">
+            <ImageButton app:id="@id/button_back" app:background="@drawable/button_background" app:padding="16dp" app:visibility="1" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="16dp" app:layout_marginBottom="16dp" app:src="@drawable/ic_previous" />
+            <ImageButton app:id="@id/button_skip" app:background="@drawable/button_background" app:padding="16dp" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="16dp" app:layout_marginBottom="16dp" app:src="@drawable/ic_skip" />
+            <agency.tango.materialintroscreen.widgets.InkPageIndicator app:layout_gravity="50" app:id="@id/indicator" app:layout_width="0dp" app:layout_height="-2" app:layout_marginBottom="16dp" app:layout_weight="1.0" app:dotDiameter="8dp" app:dotGap="8dp" app:animationDuration="320" app:pageIndicatorColor="0x1060016" app:currentPageIndicatorColor="0x106000b" />
+            <ImageButton app:id="@id/button_next" app:background="@drawable/button_background" app:padding="16dp" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="16dp" app:layout_marginBottom="16dp" app:src="@drawable/ic_next" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

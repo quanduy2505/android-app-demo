@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@id/header_cover_image" android:layout_width="-1" android:layout_height="200dp" android:scaleType="6" android:adjustViewBounds="true" />
+        <ImageButton android:id="@id/cam" android:background="@drawable/botrontim" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" android:src="@drawable/camera" android:layout_above="@id/profile_layout" android:layout_alignParentRight="true" />
+        <RelativeLayout android:id="@id/profile_layout" android:background="@color/colorPrimary" android:paddingBottom="24dp" android:layout_width="-1" android:layout_height="-2" android:layout_below="@id/header_cover_image">
+            <de.hdodenhof.circleimageview.CircleImageView app:id="@id/user_profile_photo" app:padding="20dp" app:layout_width="120dp" app:layout_height="120dp" app:src="@drawable/com_facebook_profile_picture_blank_portrait" app:scaleType="6" app:civ_border_width="1dp" app:civ_border_color="#ff000000" />
+            <ImageButton app:id="@id/facebook" app:background="@drawable/botrontim" app:layout_width="-2" app:layout_height="-2" app:layout_margin="10dp" app:src="@drawable/facebook" app:layout_alignParentRight="true" />
+            <ImageButton app:id="@id/create" app:background="@drawable/botrontim" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/ic_add_black_24dp" app:layout_alignLeft="@id/facebook" app:layout_alignParentBottom="true" />
+            <TextView app:textSize="20sp" app:textStyle="1" app:textColor="#fff" app:ellipsize="4" app:id="@id/nickname" app:layout_width="-2" app:layout_height="-2" app:text="Viral Android" app:singleLine="true" app:layout_below="@id/user_profile_photo" app:layout_alignRight="@id/user_profile_photo" />
+            <TextView app:textSize="14sp" app:textColor="#fff" app:id="@id/numpost" app:layout_width="-2" app:layout_height="-2" app:layout_below="@id/facebook" app:layout_centerHorizontal="true" />
+            <TextView app:textSize="17sp" app:textColor="#fff" app:id="@id/totalfollow" app:layout_width="-2" app:layout_height="-2" app:text="0 follow" app:layout_below="@id/numpost" app:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

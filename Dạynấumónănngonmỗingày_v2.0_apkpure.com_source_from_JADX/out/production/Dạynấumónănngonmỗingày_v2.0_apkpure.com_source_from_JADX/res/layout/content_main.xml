@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-1" app:layout_height="-1" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <FrameLayout app:id="@id/containerView" app:layout_width="-1" app:layout_height="-1" />
+</RelativeLayout>

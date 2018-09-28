@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="150dp"
+        android:text="Tiêu Đen"
+        android:textColor="@android:color/black"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="Số Lượng"
+            android:textColor="@android:color/black"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/textSoLuong"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:inputType="numberDecimal"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="@android:color/holo_red_light"             />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:text="Kg"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="Đầu Giá"
+            android:textColor="@android:color/black"
+            android:textSize="30dp" />
+
+        <EditText
+
+            android:id="@+id/textDauGia"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:inputType="numberDecimal"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:layout_marginLeft="5dp"
+
+            />
+
+        <TextView
+            android:layout_width="62dp"
+            android:layout_height="40dp"
+            android:text="VND"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="23dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="Dung Trọng"
+            android:textColor="@android:color/black"
+            android:textSize="26dp" />
+
+        <EditText
+            android:id="@+id/textDungTrong"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:inputType="numberDecimal"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="Lạng"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="Độ Ẩm"
+            android:textColor="@android:color/black"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/textDoAm"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:inputType="numberDecimal"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:text="Độ"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:background="@drawable/button2"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:text="OK"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:background="@drawable/button2"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="5dp"
+            android:text="Clear"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="Thành Tiền: "
+            android:textColor="@android:color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/ketQua"
+            android:layout_width="230dp"
+            android:layout_height="100dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

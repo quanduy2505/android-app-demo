@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/gren" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@id/imageView3" android:background="@drawable/fico" android:layout_width="250px" android:layout_height="250px" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <TextView android:textStyle="1" android:textColor="@color/colorPrimaryDark" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" android:text="Version: 1.0.1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

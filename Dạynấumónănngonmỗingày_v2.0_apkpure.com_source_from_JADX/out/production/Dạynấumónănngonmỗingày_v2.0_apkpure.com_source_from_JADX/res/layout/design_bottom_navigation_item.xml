@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <ImageView android:layout_gravity="1" android:id="@id/icon" android:duplicateParentState="true" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="@dimen/design_bottom_navigation_margin" android:layout_marginBottom="@dimen/design_bottom_navigation_margin" />
+    <android.support.design.internal.BaselineLayout android:layout_gravity="51" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="@dimen/design_bottom_navigation_margin">
+        <TextView android:textSize="@dimen/design_bottom_navigation_text_size" android:id="@id/smallLabel" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+        <TextView android:textSize="@dimen/design_bottom_navigation_active_text_size" android:id="@id/largeLabel" android:visibility="1" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+    </android.support.design.internal.BaselineLayout>
+</merge>

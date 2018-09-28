@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView card_view:layout_width="-1" card_view:layout_height="-2" card_view:layout_margin="5dp" card_view:cardElevation="8dp">
+    <LinearLayout card_view:orientation="1" card_view:layout_width="-1" card_view:layout_height="-2" card_view:layout_margin="4dp">
+        <RelativeLayout card_view:layout_width="-1" card_view:layout_height="-2" card_view:layout_marginBottom="10dp">
+            <ImageView card_view:id="@id/imtit" card_view:layout_width="-1" card_view:layout_height="-2" card_view:adjustViewBounds="true" />
+        </RelativeLayout>
+        <LinearLayout card_view:orientation="1" card_view:layout_width="-1" card_view:layout_height="-2">
+            <TextView card_view:textStyle="1" card_view:layout_gravity="11" card_view:id="@id/namefood" card_view:layout_width="-2" card_view:layout_height="-2" card_view:layout_marginTop="6dp" card_view:layout_marginBottom="5dp" card_view:text="Món này ngon" />
+            <LinearLayout card_view:orientation="1" card_view:layout_width="-1" card_view:layout_height="-2" /> />
+        <LinearLayout card_view:orientation="0" card_view:layout_width="-1" card_view:layout_height="-2" card_view:layout_marginTop="10dp">
+            <RelativeLayout card_view:layout_width="-1" card_view:layout_height="-2">
+                <ImageButton card_view:id="@id/del" card_view:background="@newthreadworker/PURGE_FREQUENCY" card_view:clickable="true" card_view:layout_width="-2" card_view:layout_height="-2" card_view:src="@drawable/xoa" card_view:layout_alignParentTop="true" card_view:layout_alignParentRight="true" />
+                <TextView card_view:textStyle="2" card_view:id="@id/theloai" card_view:layout_width="-2" card_view:layout_height="-2" card_view:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:id="@id/action_settings" app:orderInCategory="100" app:title="@string/action_settings" app:showAsAction="0" />
+    <item app:icon="@drawable/tim" app:id="@id/rotate" app:title="@string/app_name" app:showAsAction="2" />
+</menu>

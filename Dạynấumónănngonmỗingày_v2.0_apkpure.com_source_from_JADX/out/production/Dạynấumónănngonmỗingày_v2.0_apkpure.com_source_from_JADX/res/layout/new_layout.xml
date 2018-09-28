@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/ScrollView01" android:background="@color/gren" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:id="@id/RelativeLayout01" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+            <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+                <de.hdodenhof.circleimageview.CircleImageView app:id="@id/avatar" app:layout_width="100px" app:layout_height="100px" app:src="@drawable/com_facebook_profile_picture_blank_portrait" app:civ_border_width="0dp" app:civ_border_color="#ff000000" />
+                <TextView app:textStyle="1" app:layout_gravity="11" app:id="@id/nickname" app:layout_width="-2" app:layout_height="-2" app:layout_margin="7dp" app:text="Lê Văn Tuấn" />
+            </LinearLayout>
+            <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+                <android.support.design.widget.TextInputLayout app:layout_width="-1" app:layout_height="-2">
+                    <EditText app:textStyle="3" app:id="@id/tit" app:background="@drawable/botronform" app:layout_width="-1" app:layout_height="-2" app:hint="Tên món ăn" app:singleLine="true" app:maxLength="1000" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout app:layout_width="-1" app:layout_height="-2">
+                    <EditText app:gravity="30" app:id="@id/nd" app:background="@drawable/botronform" app:layout_width="-1" app:layout_height="400px" app:hint="Chi tiết món ăn" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout app:layout_width="-1" app:layout_height="-2">
+                    <AutoCompleteTextView app:id="@id/typekey" app:background="@drawable/botronform" app:layout_width="-1" app:layout_height="-2" app:layout_marginRight="10dp" app:text="" app:hint="Thể loại, vd: Món chiên, luộc, bánh,..." app:singleLine="true">
+                        <requestFocus />
+                    </AutoCompleteTextView>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="10dp">
+                <RelativeLayout app:layout_gravity="11" app:layout_width="-1" app:layout_height="-2">
+                    <ImageButton app:id="@id/photo" app:background="@drawable/botrontim" app:clickable="true" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="15dp" app:src="@drawable/camera" />
+                    <ImageButton app:id="@id/send" app:background="@drawable/botrontim" app:clickable="true" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="15dp" app:src="@drawable/send2" app:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout app:layout_width="-1" app:layout_height="-1">
+                <GridView app:gravity="11" app:id="@id/grid" app:layout_width="-1" app:layout_height="-2" app:layout_margin="7dp" app:stretchMode="2" app:columnWidth="100dp" app:numColumns="-1" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

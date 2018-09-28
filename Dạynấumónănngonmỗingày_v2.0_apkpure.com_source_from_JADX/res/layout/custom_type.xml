@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="0" android:background="@drawable/botrontl" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp">
+            <ImageView android:id="@id/imtit" android:layout_width="-1" android:layout_height="-2" android:scaleType="6" android:adjustViewBounds="true" />
+            <ImageButton android:id="@id/like" android:background="@drawable/botrontim" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" android:src="@drawable/like1" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <TextView android:textStyle="1" android:ellipsize="4" android:id="@id/namefood" android:background="@drawable/botronform" android:layout_width="-1" android:layout_height="-2" android:text="Món này ngon" android:singleLine="true" android:layout_alignRight="@id/imtit" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

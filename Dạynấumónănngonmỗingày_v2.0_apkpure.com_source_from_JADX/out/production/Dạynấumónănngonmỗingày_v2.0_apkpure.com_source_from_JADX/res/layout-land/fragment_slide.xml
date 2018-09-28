@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<agency.tango.materialintroscreen.parallax.ParallaxLinearLayout app:id="@id/slide_background" app:padding="16dp" app:fitsSystemWindows="false" app:clipToPadding="false" app:layout_width="-1" app:layout_height="-1" app:layout_marginTop="16dp" app:baselineAligned="false">
+    <ImageView app:layout_gravity="1" app:id="@id/image_slide" app:paddingTop="32dp" app:visibility="2" app:layout_width="0dp" app:layout_height="-2" app:layout_marginRight="16dp" app:layout_marginBottom="128dp" app:adjustViewBounds="true" app:layout_weight="1.0" app:layout_parallaxFactor="0.6" />
+    <LinearLayout app:gravity="11" app:orientation="1" app:layout_width="0dp" app:layout_height="-1" app:layout_weight="1.0">
+        <TextView app:textAppearance="@style/TextAppearance_AppCompat_Headline" app:gravity="11" app:id="@id/txt_title_slide" app:layout_width="-1" app:layout_height="-2" app:layout_parallaxFactor="0.5" />
+        <TextView app:textAppearance="@style/TextAppearance_AppCompat_Subhead" app:gravity="11" app:id="@id/txt_description_slide" app:layout_width="-1" app:layout_height="-2" app:layout_parallaxFactor="0.2" />
+    </LinearLayout>
+</agency.tango.materialintroscreen.parallax.ParallaxLinearLayout>

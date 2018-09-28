@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/gren" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <RelativeLayout android:id="@id/rela" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+            <EditText android:textColor="#000000" android:textColorHint="@color/colorPrimaryDark" android:gravity="30" android:id="@id/content" android:background="@drawable/botronform" android:layout_width="-1" android:layout_height="-2" android:hint="Bình luận" android:layout_toLeftOf="@id/send" />
+            <ImageButton android:id="@id/send" android:background="@drawable/botrontim" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/send2" android:layout_alignBottom="@id/content" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <ProgressBar android:layout_gravity="1" android:id="@id/pro" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+            <android.support.v7.widget.RecyclerView android:id="@id/listcmt" android:layout_width="-1" android:layout_height="-2" />
+            <TextView android:textStyle="1" android:layout_gravity="1" android:id="@id/arl" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView app:layout_width="-1" app:layout_height="-1" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <RelativeLayout app:id="@id/RelativeLayout01" app:layout_width="-1" app:layout_height="-1">
+        <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+            <RelativeLayout app:layout_width="-1" app:layout_height="-2">
+                <de.hdodenhof.circleimageview.CircleImageView app:id="@id/avatar" app:layout_width="70px" app:layout_height="70px" app:layout_marginLeft="10dp" app:src="@drawable/com_facebook_profile_picture_blank_portrait" app:civ_border_width="0dp" app:civ_border_color="#ff000000" />
+                <LinearLayout app:orientation="1" app:layout_width="-2" app:layout_height="-2" app:layout_toRightOf="@id/avatar" app:layout_centerVertical="true">
+                    <TextView app:textStyle="1" app:id="@id/nickname" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="5dp" app:text="Lê Văn Tuấn" />
+                    <TextView app:textSize="10dp" app:textStyle="2" app:id="@id/date" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="5dp" app:text="18:00 21/7/2016" />
+                </LinearLayout>
+                <ImageButton app:id="@id/edit" app:background="@newthreadworker/PURGE_FREQUENCY" app:visibility="2" app:clickable="true" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="15dp" app:src="@drawable/edit" app:layout_toLeftOf="@id/del" app:layout_alignParentTop="true" app:layout_centerVertical="true" />
+                <ImageButton app:id="@id/del" app:background="@newthreadworker/PURGE_FREQUENCY" app:visibility="2" app:clickable="true" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="10dp" app:src="@drawable/xoa" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+            </RelativeLayout>
+            <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+                <TextView app:textStyle="1" app:layout_gravity="1" app:id="@id/namefood" app:layout_width="-2" app:layout_height="-2" app:text="Tên món ăn" />
+            </LinearLayout>
+            <LinearLayout app:layout_width="-1" app:layout_height="-2" app:layout_margin="10dp">
+                <TextView app:id="@id/noidung" app:layout_width="-1" app:layout_height="-2" app:text="uwyfewufhryufyuiewibfyuwefuefwefwfyegfwyefgywegfyegfefygeyfgwyefu ưueygfywfgefw" />
+            </LinearLayout>
+            <LinearLayout app:layout_width="-1" app:layout_height="-2">
+                <RelativeLayout app:layout_width="-1" app:layout_height="-2" app:layout_margin="7dp">
+                    <TextView app:textStyle="1" app:id="@id/total" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="5dp" app:text="156" app:layout_centerVertical="true" />
+                    <ImageView app:id="@id/tim" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/eye" app:layout_toRightOf="@id/total" app:layout_centerVertical="true" />
+                    <TextView app:textStyle="1" app:id="@id/theloai" app:layout_width="-2" app:layout_height="-2" app:layout_margin="5dp" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

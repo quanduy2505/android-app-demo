@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/flAlertBackground" android:background="0x1060000" android:clickable="true" android:foreground="?unknown_attr_ref: 7f010069" style="@style/AlertStyle">
+    <RelativeLayout android:layout_gravity="10" android:background="@newthreadworker/PURGE_FREQUENCY" android:padding="@dimen/alerter_activity_horizontal_margin" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="@dimen/alerter_padding_half">
+        <android.support.v7.widget.AppCompatImageView android:id="@id/ivIcon" android:layout_width="@dimen/alerter_alert_icn_size" android:layout_height="@dimen/alerter_alert_icn_size" android:src="@drawable/ic_notifications" android:maxWidth="@dimen/alerter_alert_icn_size" android:maxHeight="@dimen/alerter_alert_icn_size" android:tint="0x106000b" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="1" android:id="@id/llAlertTextContainer" android:background="@newthreadworker/PURGE_FREQUENCY" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/alerter_activity_horizontal_margin" android:layout_marginRight="@dimen/alerter_activity_horizontal_margin" android:layout_toRightOf="@id/ivIcon" android:layout_centerVertical="true">
+            <TextView android:textAppearance="@style/AlertTextAppearance_Title" android:textColor="0x106000b" android:id="@id/tvTitle" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+            <TextView android:textAppearance="@style/AlertTextAppearance_Text" android:textColor="0x106000b" android:id="@id/tvText" android:paddingTop="@dimen/alerter_padding_small" android:paddingBottom="@dimen/alerter_padding_small" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

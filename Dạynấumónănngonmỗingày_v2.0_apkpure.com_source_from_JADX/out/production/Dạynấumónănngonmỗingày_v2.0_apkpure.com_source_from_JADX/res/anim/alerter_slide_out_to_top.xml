@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="@anim/interpolator_slight_anticipate" android:duration="0x10e0002" android:fillAfter="true">
+    <translate android:fromYDelta="0%" android:toYDelta="-100%" />
+</set>

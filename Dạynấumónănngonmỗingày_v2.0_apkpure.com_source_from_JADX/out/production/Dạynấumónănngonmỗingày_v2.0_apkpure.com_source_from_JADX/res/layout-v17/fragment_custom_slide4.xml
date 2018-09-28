@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<agency.tango.materialintroscreen.parallax.ParallaxLinearLayout app:orientation="1" app:background="0x106000d" app:layout_width="-1" app:layout_height="-1">
+    <RelativeLayout app:layout_width="-1" app:layout_height="-1">
+        <ImageView app:layout_width="-1" app:layout_height="-1" app:src="@drawable/custom4" app:scaleType="6" />
+        <RelativeLayout app:layout_width="-1" app:layout_height="-2" app:layout_alignParentLeft="true" app:layout_centerVertical="true" app:layout_alignParentStart="true">
+            <TextView app:textSize="20dp" app:textStyle="1" app:textColor="#fff" app:id="@id/cm" app:layout_width="-2" app:layout_height="-2" app:text="Ngoài ra bạn có thể" app:layout_centerHorizontal="true" />
+            <TextView app:textSize="20dp" app:textStyle="1" app:textColor="#fff" app:id="@id/cm23" app:layout_width="-2" app:layout_height="-2" app:text="Like, bình luận tìm kiếm món ăn" app:layout_below="@id/cm" app:layout_centerHorizontal="true" />
+            <TextView app:textSize="20dp" app:textStyle="1" app:textColor="#fff" app:id="@id/cm2" app:layout_width="-2" app:layout_height="-2" app:text="lưu món ăn vào máy để xem offline" app:layout_below="@id/cm23" app:layout_centerHorizontal="true" />
+            <TextView app:textSize="20dp" app:textStyle="1" app:textColor="#fff" app:id="@id/cm3" app:layout_width="-2" app:layout_height="-2" app:text="Và còn nhiều chức năng khác nữa" app:layout_below="@id/cm2" app:layout_centerHorizontal="true" />
+            <TextView app:textSize="20dp" app:textStyle="1" app:textColor="#fff" app:id="@id/cm4" app:layout_width="-2" app:layout_height="-2" app:text="nhấn nút BẮT ĐẦU để khám phá:" app:layout_below="@id/cm3" app:layout_centerHorizontal="true" />
+            <Button app:textStyle="1" app:textColor="#fff" app:id="@id/start" app:background="@drawable/botrona" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="20dp" app:text="Bắt đầu" app:layout_below="@id/cm4" app:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</agency.tango.materialintroscreen.parallax.ParallaxLinearLayout>

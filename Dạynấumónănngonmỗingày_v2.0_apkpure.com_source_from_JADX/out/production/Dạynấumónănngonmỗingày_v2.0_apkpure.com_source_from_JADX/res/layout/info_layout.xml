@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout lv:orientation="1" lv:background="@color/gren" lv:layout_width="-1" lv:layout_height="-2">
+    <RelativeLayout lv:layout_width="-1" lv:layout_height="-1">
+        <android.support.v7.widget.RecyclerView android:id="@id/list" android:layout_width="-1" android:layout_height="-2" />
+        <me.wangyuwei.loadingview.LoadingView android:id="@id/loading_view" android:layout_width="-2" android:layout_height="-2" android:lv_external_radius="32dp" android:lv_internal_radius="7dp" android:lv_duration="10" android:lv_start_color="@color/colorAccent" android:lv_end_color="#fff" />
+    </RelativeLayout>
+</LinearLayout>

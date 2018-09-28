@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/gren" android:layout_width="-1" android:layout_height="-1">
+    <android.support.v4.widget.NestedScrollView android:layout_width="-1" android:layout_height="-1">
+        <RelativeLayout android:layout_width="-1" android:layout_height="-1"
+            <RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16dp" android:layout_centerHorizontal="true">
+                <TextView android:textSize="15dp" android:textStyle="1" android:id="@id/intro" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="20dp" android:text="Một sản phẩm thực tập chuyên ngành" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="20dp" android:textStyle="1" android:id="@id/lh" android:layout_width="-2" android:layout_height="-1" android:text="vantuan88291@gmail.com" android:layout_below="@id/intro" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="20dp" android:textStyle="1" android:id="@id/lh2" android:layout_width="-2" android:layout_height="-2" android:text="Facebook: fb.com/vantuan88291" android:layout_below="@id/lh" android:layout_centerHorizontal="true" />
+                <TextView android:id="@id/textView" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="20dp" android:text="Phiên bản: 1.0.0" android:layout_below="@id/lh2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

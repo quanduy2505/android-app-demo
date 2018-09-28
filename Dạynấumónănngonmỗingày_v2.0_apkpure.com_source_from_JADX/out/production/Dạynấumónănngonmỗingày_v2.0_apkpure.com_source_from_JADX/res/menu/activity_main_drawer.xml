@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <group android:checkableBehavior="2">
+        <item android:icon="@drawable/home" android:id="@id/home" android:title="Trang chủ" />
+        <item android:icon="@drawable/dish" android:id="@id/my" android:title="Món ăn đã lưu" />
+        <item android:icon="@drawable/heart" android:id="@id/like" android:title="Món ăn đã thích" />
+        <item android:icon="@drawable/exit" android:id="@id/exit" android:title="Đăng xuất" />
+    </group>
+    <item android:title="">
+        <menu>
+            <item android:icon="@drawable/information" android:id="@id/tg" android:title="About" />
+            <item android:icon="@drawable/share" android:id="@id/nav_share" android:title="Share" />
+        </menu> />
+</menu>

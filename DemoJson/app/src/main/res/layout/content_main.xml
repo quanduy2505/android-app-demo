@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.quan.demojson.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="id:" />
+
+    <TextView
+        android:id="@+id/txtId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Id ở đây"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name:" />
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" Name ở đây"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="content:" />
+
+    <TextView
+        android:id="@+id/txtContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="content ở đây"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/userID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user_id:" />
+
+    <TextView
+        android:id="@+id/txtUserId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="user id ở đây"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="category_id:" />
+
+    <TextView
+        android:id="@+id/txtCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="category o day"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/nviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nviews:" />
+
+    <TextView
+        android:id="@+id/txtNviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="nviews ở đây"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/createdDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="created_date:" />
+
+    <TextView
+        android:id="@+id/txtCreatedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="created date ở đây"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/updateDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update_date:" />
+
+    <TextView
+        android:id="@+id/txtUpdateDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="update date ở đây"
+        android:textColor="#FF0000" />
+
+    <Button
+        android:id="@+id/images"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="image" />
+
+</LinearLayout>

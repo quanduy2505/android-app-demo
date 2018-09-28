@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:layout_width="-1" android:layout_height="-1" android:src="@drawable/bg1" android:scaleType="6" />
+        <TextView android:textSize="30dp" android:textStyle="1" android:textColor="#fff" android:id="@id/tit" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="43dp" android:text="Scook" android:layout_above="@id/login_button" android:layout_centerHorizontal="true" />
+        <com.facebook.login.widget.LoginButton android:textSize="28dp" android:textStyle="1" android:layout_gravity="1" android:id="@id/login_button" android:background="@drawable/botronfb" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <RelativeLayout android:id="@id/relativeLayout" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="36dp" android:layout_below="@id/login_button" android:layout_centerHorizontal="true">
+            <Button android:textStyle="1" android:textColor="#fff" android:id="@id/web" android:background="@drawable/botrona" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" android:text="Website" />
+            <Button android:textStyle="1" android:textColor="#fff" android:id="@id/vote" android:background="@drawable/botrona" android:layout_width="-2" android:layout_height="-2" android:text="Vote" android:layout_toRightOf="@id/web" android:layout_alignParentTop="true" android:layout_toEndOf="@id/web" />
+        </RelativeLayout>
+        <TextView android:textStyle="1" android:textColor="#fff" android:id="@id/textView2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="20dp" android:text="Phát triển bởi: vantuan88291" android:layout_alignRight="@id/relativeLayout" android:layout_alignParentBottom="true" android:layout_alignEnd="@id/relativeLayout" />
+    </RelativeLayout>
+</LinearLayout>

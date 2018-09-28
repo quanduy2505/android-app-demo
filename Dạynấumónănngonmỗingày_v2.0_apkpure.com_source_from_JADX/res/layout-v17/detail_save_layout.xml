@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout lv:background="@color/gren" lv:fitsSystemWindows="true" lv:layout_width="-1" lv:layout_height="-1">
+    <android.support.design.widget.AppBarLayout lv:theme="@style/AppTheme_AppBarOverlay" lv:id="@id/appBar" lv:fitsSystemWindows="true" lv:layout_width="-1" lv:layout_height="300dp">
+        <android.support.design.widget.CollapsingToolbarLayout lv:ellipsize="4" lv:id="@id/collapsingToolbar" lv:fitsSystemWindows="true" lv:layout_width="-1" lv:layout_height="-1" lv:singleLine="true" lv:title="" lv:layout_scrollFlags="3" lv:expandedTitleMarginStart="48dp" lv:expandedTitleMarginEnd="64dp" lv:contentScrim="@color/colorPrimary">
+            <RelativeLayout lv:layout_width="-1" lv:layout_height="-1">
+                <Gallery lv:layout_gravity="11" lv:id="@id/gallery" lv:background="#fff" lv:layout_width="-1" lv:layout_height="-1" lv:scaleType="6" />
+                <ImageButton lv:id="@id/next" lv:background="@newthreadworker/PURGE_FREQUENCY" lv:visibility="2" lv:layout_width="-2" lv:layout_height="-2" lv:src="@drawable/next" lv:layout_alignParentRight="true" lv:layout_centerVertical="true" lv:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <android.support.v7.widget.Toolbar lv:id="@id/toolbar" lv:layout_width="-1" lv:layout_height="?unknown_attr_ref: 7f01004a" lv:popupTheme="@style/AppTheme_PopupOverlay" lv:layout_collapseMode="1" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView lv:layout_width="-1" lv:layout_height="-1" lv:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <RelativeLayout lv:layout_width="-1" lv:layout_height="-1">
+            <LinearLayout lv:orientation="1" lv:layout_width="-1" lv:layout_height="-2">
+                <TextView lv:textStyle="1" lv:layout_gravity="1" lv:id="@id/namefood" lv:layout_width="-2" lv:layout_height="-2" lv:text="Tên món ăn" />
+            </LinearLayout>
+            <LinearLayout lv:layout_width="-1" lv:layout_height="-2" lv:layout_marginLeft="10dp" lv:layout_marginTop="25dp" lv:layout_marginRight="10dp">
+                <TextView lv:id="@id/noidung" lv:layout_width="-1" lv:layout_height="-2" lv:text="uwyfewufhryufyuiewibfyuwefuefwefwfyegfwyefgywegfyegfefygeyfgwyefu ưueygfywfgefw" />
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

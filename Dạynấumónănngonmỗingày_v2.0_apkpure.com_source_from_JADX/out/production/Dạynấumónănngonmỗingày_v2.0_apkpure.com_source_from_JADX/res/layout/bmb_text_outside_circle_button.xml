@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layout" android:layout_width="-2" android:layout_height="-2">
+    <com.nightonke.boommenu.BMBShadow android:layout_gravity="11" android:id="@id/shadow" android:layout_width="-2" android:layout_height="-2">
+        <FrameLayout android:id="@id/button" android:clickable="true" android:layout_width="@dimen/default_bmb_text_outside_circle_width" android:layout_height="@dimen/default_bmb_text_outside_circle_height" />
+    </com.nightonke.boommenu.BMBShadow> />

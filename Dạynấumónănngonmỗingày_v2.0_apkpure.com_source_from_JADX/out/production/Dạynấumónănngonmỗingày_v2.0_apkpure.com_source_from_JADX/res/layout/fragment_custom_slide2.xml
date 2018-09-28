@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<agency.tango.materialintroscreen.parallax.ParallaxLinearLayout app:orientation="1" app:background="0x106000d" app:layout_width="-1" app:layout_height="-1">
+    <RelativeLayout app:layout_width="-1" app:layout_height="-1">
+        <ImageView app:layout_width="-1" app:layout_height="-1" app:src="@drawable/custom2" app:scaleType="6" />
+        <TextView app:textSize="20dp" app:textStyle="1" app:textColor="#fff" app:id="@id/cm" app:layout_width="-2" app:layout_height="-2" app:text="Phần mềm có hàng ngàn món ăn" app:layout_centerHorizontal="true" app:layout_centerVertical="true" />
+        <TextView app:textSize="20dp" app:textStyle="1" app:textColor="#fff" app:layout_width="-2" app:layout_height="-2" app:text="luôn được cập nhật bởi chính các bạn" app:layout_below="@id/cm" app:layout_centerHorizontal="true" app:layout_centerVertical="true" />
+    </RelativeLayout>
+</agency.tango.materialintroscreen.parallax.ParallaxLinearLayout>

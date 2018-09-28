@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-1" app:layout_height="-1">
+    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView app:id="@id/img" app:layout_width="-1" app:layout_height="-1" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" />
+</RelativeLayout>
